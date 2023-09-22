@@ -1,0 +1,5 @@
+<div class="component">
+  <h2>Hello from {{name}}</h2>
+  <button (click)="updateUsername()">Update username</button>
+  <ajs-user [username]="user.username" [twitter]="user.twitter" (select)="onSelect($event)"></ajs-user>
+</div>

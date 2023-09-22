@@ -1,0 +1,47 @@
+* {
+  font-family: Lato;
+  outline: 0;
+}
+
+body {
+  background: #ddd;
+}
+
+p {
+  line-height: 30px;
+}
+
+a {
+  color: #b52e31;
+}
+
+code {
+  padding: 2px 10px;
+  color: #ffffff;
+  background-color: #b52e31;
+  border-radius: 10px;
+}
+
+div {
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.component {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+button {
+  color: #b52e31;
+  border: 2px solid #b52e31;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2px 10px 3px 10px;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #b52e31;
+}
